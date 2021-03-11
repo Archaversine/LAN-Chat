@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LAN Chat</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js" integrity="sha512-74AKPNm8Tfd5E9c4otg7XNkIVfIe5ynON7wehpX/9Tv5VYcZvXZBAlcgOAjLHg6HeWyLujisAnle6+iKnyWd9Q==" crossorigin="anonymous"></script>
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="header">
+				<h1>LanChat</h1>
+			</div>
+			<div class="body" id="msgdisplay">
+
+				<!-- Messages will appear here --!>
+
+			</div>
+			<div class="footer">
+				<input autofocus placeholder="Enter a message here." id="msgbar">
+				<button onclick="send()">SEND</button>
+			</div>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
