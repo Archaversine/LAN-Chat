@@ -2,4 +2,4 @@
 Javascript Chat Application
 
 ## Use
-`node server.js`
+Run `node server.js` in the same directory as server.js
